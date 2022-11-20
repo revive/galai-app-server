@@ -28,3 +28,11 @@ http post localhost:8000/generate query="describe the Schroedinger equation"
 ```bash
 http get localhost:8000/generate/b8ed438c-c2b3-4816-9fb3-e4b41ab0baf6
 ```
+
+The response looks like:
+```json
+{
+    "answer": "escribe the Schroedinger equation for the \\(\\phi^{4}\\) theory.\n\n# 2.1 The \\(\\phi^{4}\\) theory\n\nThe \\(\\phi^{4}\\) theory is defined by",
+    "question": "describe the Schroedinger equation"
+}
+```
